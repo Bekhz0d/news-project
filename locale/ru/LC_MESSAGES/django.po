@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 17:05+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: config/settings.py:128
+msgid "Uzbek"
+msgstr ""
+
+#: config/settings.py:129
+msgid "English"
+msgstr ""
+
+#: config/settings.py:130
+msgid "Russian"
+msgstr ""
+
+#: templates/news/base.html:34
+msgid "Bosh sahifa"
+msgstr "Домашняя страница"
+
+#: templates/news/base.html:35
+msgid "Biz xaqimizda"
+msgstr "О нас"
+
+#: templates/news/base.html:36 templates/news/base.html:93
+#: templates/news/base.html:152
+msgid "Biz bilan aloqa"
+msgstr "Связаться с нами"
+
+#: templates/news/base.html:38
+msgid "Admin sahifasi"
+msgstr "Страница администратора"
+
+#: templates/news/base.html:62
+msgid "Logout"
+msgstr "Выйти"
+
+#: templates/news/base.html:63
+msgid "My profile"
+msgstr "Мой профайл"
+
+#: templates/news/base.html:65
+msgid "Saytga kirish"
+msgstr "Вход"
+
+#: templates/news/base.html:82
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: templates/news/base.html:88
+msgid "Mahalliy"
+msgstr "Местный"
+
+#: templates/news/base.html:89
+msgid "Xorij"
+msgstr "Иностранный"
+
+#: templates/news/base.html:90 templates/news/home.html:131
+msgid "Texnologiya"
+msgstr "Технологии"
+
+#: templates/news/base.html:91 templates/news/home.html:201
+msgid "Sport"
+msgstr "спорта"
+
+#: templates/news/base.html:101
+msgid "So'ngi xabarlar"
+msgstr "Последние сообщения"
+
+#: templates/news/base.html:137
+msgid "Flickr Images"
+msgstr "Изображения на Flickr"
+
+#: templates/news/base.html:142
+msgid "Kategoriyalar"
+msgstr "Категории"
+
+#: templates/news/base.html:153
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit "
+"amet, consectetur adipisicing elit"
+msgstr ""
+
+#: templates/news/base.html:155
+msgid "Phone: +998 (93) 643 96 62"
+msgstr ""
+
+#: templates/news/base.html:162
+msgid "Farg'ona - 2023"
+msgstr "Фергана - 2023 год"
+
+#: templates/news/base.html:163
+msgid "Developed By Bekhzodjon"
+msgstr "Developed By Bekhzod"
+
+#: templates/news/home.html:30
+msgid " So'ngi yangiliklar "
+msgstr "последние новости"
+
+#: templates/news/home.html:39 templates/news/home.html:105
+msgid " Izoxlar soni "
+msgstr "Количество сносок"
+
+#: templates/news/home.html:57
+msgid " Mahalliy "
+msgstr "Местный"
+
+#: templates/news/home.html:96
+msgid " Xorij "
+msgstr "Иностранный"
+
+#: templates/news/home.html:120 templates/news/home.html:139
+#: templates/news/home.html:153 templates/news/home.html:210
+#: templates/news/home.html:227
+msgid "Izoxlar soni"
+msgstr "Количество сносок"
+
+#: templates/news/home.html:165
+msgid "Photography"
+msgstr "Фотография"

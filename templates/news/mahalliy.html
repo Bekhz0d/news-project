@@ -1,0 +1,20 @@
+{% extends 'news/base.html' %}
+{% load static %}
+{% load hitcount_tags %}
+{% block title %} Mahalliy xabarlar {% endblock title %}
+
+{% block content %}
+
+    {% for news in mahalliy_yangiliklar %}
+<div class="card">
+  <img src="{{ news.image.url }}" class="img-center" alt="..." style="width:100%">
+  <div class="card-body">
+    <h5 class="card-title">{{ news.title }}</h5>
+      <p><i class="fa fa-eye" aria-hidden="true"></i>{% get_hit_count for news %} | Izohlar soni: {{ comment_count }}</p>
+    <p class="card-text">{{ news.body | truncatewords:20 }}</p>
+    <a href="{{ news.get_absolute_url }}" class="btn btn-primary">Batafsil</a>
+  </div>
+  </div>
+    {% endfor %}
+
+{% endblock content %}
